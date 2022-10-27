@@ -10,8 +10,21 @@
                         alt=""
                     />
                 </li>
-                <li class="px-4">
+                <li class="px-4 py-2.5  categories ">
                     <a class="li-text">Categories</a>
+                    <div class="card-popup py-2.5">
+                        <p class="popup-text">
+                            Ekibinize en iyi 17.000+ Udemy kursuna istedikleri zaman
+                            istedikleri yerden erişebilme imkanı sağlayın.
+                        </p>
+                        <button
+                            type="button"
+                            class="shrink-0 font-bold text-base text-white bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium text-sm px-5 py-2.5 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700"
+                        >
+                            Udemy Business Ürününü Deneyin
+                        </button>
+                    </div>
+
                 </li>
             </ul>
             <div class="flex items-center content-center w-full">
@@ -237,7 +250,19 @@ export default {
     line-height: 22px;
     font-size: 19px;
 }
-
+.categories{
+}
+.categories:hover > div {
+    display: block;
+}
+.categories .card-popup{
+    font-weight: 300;
+    color: #6a6f73;
+    font-size: 10px!important;
+    line-height: 22.4px;
+    padding: 12px 0;
+    width: 288px;
+}
 .udemy-business {
     padding: 24px 0px;
 }
